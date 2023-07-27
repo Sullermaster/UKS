@@ -3,7 +3,7 @@
   <name>УКСПинск</name>
   <synonym>
     <key>ru</key>
-    <value>УКС &quot;Пинск&quot;</value>
+    <value>УКС &quot;Города Пинска&quot;</value>
   </synonym>
   <comment>УНИТАРНОЕ ПРЕДПРИЯТИЕ «УКС ГОРОДА ПИНСКА»</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5f644aaa-1fd1-4de8-befa-00fb4134ce3b"/>
@@ -41,7 +41,7 @@
   </detailedInformation>
   <logo/>
   <splash/>
-  <dataLockControlMode>AutomaticAndManaged</dataLockControlMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="c4f663cc-09bf-45ae-b3b9-8af59170d9a9">

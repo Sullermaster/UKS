@@ -203,7 +203,6 @@
   <items xsi:type="form:FormField">
     <name>ИмяРуководителя</name>
     <id>10</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
