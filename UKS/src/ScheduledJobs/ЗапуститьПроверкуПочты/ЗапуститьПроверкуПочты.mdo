@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcbc6524-6d8e-4a39-bf05-1f02ca25e8cb">
+  <name>ЗапуститьПроверкуПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запустить проверку почты</value>
+  </synonym>
+  <comment>Отправить письмо на почтовый ящик</comment>
+  <methodName>CommonModule.ОбработчикФоновыеЗадания.ОтправитьТестовоеПисьмо</methodName>
+  <description>Отправить письмо</description>
+  <key>ОтправитьПисьмоНаПочту</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

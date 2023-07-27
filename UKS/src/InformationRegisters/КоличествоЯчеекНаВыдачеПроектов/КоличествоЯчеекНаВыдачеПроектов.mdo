@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ea07977-99e5-4cd9-92d9-cf537ad3f250">
+  <producedTypes>
+    <selectionType typeId="d2048107-b6ab-4859-8e28-0b00650186f6" valueTypeId="b2f547b8-5d5e-4729-b465-9bb20c30ce14"/>
+    <listType typeId="90271f63-16a1-4d08-a174-5705c661b2b9" valueTypeId="3f06a60f-57ed-4e95-bbca-43c83923c84a"/>
+    <managerType typeId="4cabcad1-496f-4fc6-9a3f-753976995c17" valueTypeId="8ef8bffc-ade0-49ad-9908-d3577c56e1bd"/>
+    <recordSetType typeId="1caddd72-952a-4130-9a6b-6765ef24932a" valueTypeId="52bf2026-e5b6-4553-8b43-30a70f718887"/>
+    <recordKeyType typeId="56e93b20-bd28-4fb6-97d5-1996a29761d6" valueTypeId="aa346299-104a-4759-bac8-be70a60df370"/>
+    <recordType typeId="2ed0e578-8f1a-4b16-9fbf-9ce2cb8b20fd" valueTypeId="13264cf6-4f78-4eff-9810-0373b7331065"/>
+    <recordManagerType typeId="55e9df02-e972-4680-a52d-b6980eab5efc" valueTypeId="43561e88-c70b-43a6-883b-cf5059b92252"/>
+  </producedTypes>
+  <name>КоличествоЯчеекНаВыдачеПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество ячеек на выдаче проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="e6a5ed33-626c-4a4d-8c56-8557d8527306">
+    <name>КоличествоЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ячеек</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

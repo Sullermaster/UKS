@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c664186-e2ae-489b-bf17-febb33e40084">
+  <name>Орфография</name>
+  <synonym>
+    <key>ru</key>
+    <value>Орфография</value>
+  </synonym>
+</mdclass:CommonPicture>

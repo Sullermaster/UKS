@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0fb64be-f3b0-4572-80ef-32c664240d7c">
+  <producedTypes>
+    <objectType typeId="279f2024-9aba-4988-9939-62782a23ec33" valueTypeId="2bf9b449-8376-4159-9644-fe9c6fcb4ec9"/>
+    <managerType typeId="3eca36f1-f807-41c0-bac9-7324006f81e4" valueTypeId="74d978f4-0e56-40c9-83f2-10b29b9a6545"/>
+  </producedTypes>
+  <name>СообщенияСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения сотрудникам</value>
+  </synonym>
+  <comment>СообщенияСотрудникам</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СообщенияСотрудникам.Form.Форма</defaultForm>
+  <attributes uuid="f7d40c31-db86-4b54-9ff8-6b17459fd83a">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <comment>Текст сообщения (до 254 символов)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="9ed327e4-3234-4cbb-baa7-10ec1308e60d">
+    <producedTypes>
+      <objectType typeId="225b7027-8313-430a-860e-3e4f01d9b84b" valueTypeId="d648aa1f-1496-4365-93f9-3528a3d52ffa"/>
+      <rowType typeId="7e15d3fe-f614-48f0-905a-8103e16fa336" valueTypeId="a5f0fe63-b298-4849-ba60-f1ec322da48f"/>
+    </producedTypes>
+    <name>Компьютера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютера</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a1d31c15-f236-4714-b262-755da9cf91b7">
+      <name>Признак</name>
+      <synonym>
+        <key>ru</key>
+        <value>Признак</value>
+      </synonym>
+      <comment>Признак</comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="03ece5b8-5262-4409-a30a-4bce30aa9d44">
+      <name>ИмяКомпьютера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя компьютера</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Оборудование</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ce3d42ae-84e5-4816-b504-d5b154ef8095">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <comment>Подразделение</comment>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1303efcc-54ad-4cba-9827-452fee947916">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6edfe309-b868-4a1e-9c60-2d92b1eac80a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

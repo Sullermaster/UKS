@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34296e13-2cb0-4748-a99d-307b6c26fcec">
+  <producedTypes>
+    <objectType typeId="1ae0d955-b283-4f63-be48-ae2bdb2caf15" valueTypeId="2f1144d9-4e93-4097-9fe2-a00e63e57189"/>
+    <refType typeId="20a75a97-c86c-4eef-bac0-6d04c395743b" valueTypeId="48906bf0-3019-4121-8a23-6b688009111f"/>
+    <selectionType typeId="348891ea-9248-468b-a89c-26efcd5ec485" valueTypeId="2029b2a1-d91e-4e16-bf0f-5cf96f058c2a"/>
+    <listType typeId="f5bfcf4f-104b-4d30-944a-a70c1a5c79f5" valueTypeId="1a16a60d-a2c8-4536-9790-1cf39401e680"/>
+    <managerType typeId="f763b4d1-da4a-4b3a-b69a-21b1339d5a67" valueTypeId="8dce52e4-c1a4-467b-b966-c55862103256"/>
+  </producedTypes>
+  <name>ЗначенияСвойствОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗначенияСвойствОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗначенияСвойствОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ЗначенияСвойствОбъектов.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="1b402309-556c-471f-b5ec-b0d276d7b5ce">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

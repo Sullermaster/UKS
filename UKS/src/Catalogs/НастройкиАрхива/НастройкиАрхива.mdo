@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ef6f1d-138b-47d0-baa6-1187bf777766">
+  <producedTypes>
+    <objectType typeId="d8c5b373-6f0d-4d3f-b09e-f576ea574446" valueTypeId="dcc81af3-dfaf-4b04-a592-dd8f6749f3db"/>
+    <refType typeId="fd932d4c-aa52-46e2-8290-74e7df778b11" valueTypeId="506c56a5-63c0-44e8-b190-59ce4336e058"/>
+    <selectionType typeId="f7f358f8-6085-4299-88e9-ab52d5510eb9" valueTypeId="c1f86f94-aea2-4b1f-9cb4-e264fce2e128"/>
+    <listType typeId="d19e29cb-1eea-41bf-9f50-8f4618dc9e12" valueTypeId="a5ce36fd-78e8-42f6-ae4f-7c42506661a1"/>
+    <managerType typeId="f85eee90-713e-43db-9fed-d7a82d574bb9" valueTypeId="58ba4f62-0831-4249-8369-32308ca1eab1"/>
+  </producedTypes>
+  <name>НастройкиАрхива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки архива</value>
+  </synonym>
+  <comment>Настройки архива</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиАрхива.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиАрхива.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>НастройкиАрхива</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="48cb8c66-93b3-4964-9bbe-e8906566e24c">
+    <name>ПутьКаталогАрхив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь каталог архив</value>
+    </synonym>
+    <comment>Путь каталог архив</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c15e6e3a-a51b-449b-a78b-c132921e26c0">
+    <name>КоличествоДнейПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней проверки</value>
+    </synonym>
+    <comment>На какой день запускать проверку</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

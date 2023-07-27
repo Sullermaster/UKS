@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8f0449b-b858-4b21-aa48-f7135050c4d2">
+  <producedTypes>
+    <objectType typeId="7fed72ed-5f03-43af-9b8b-c5b23448e318" valueTypeId="3e09f938-cf12-4243-b2da-3ef941604a0d"/>
+    <refType typeId="45f373f2-8a2a-4436-ba17-b5764f139df0" valueTypeId="830d6be5-9bec-42e1-bed9-1c0a00b9eeed"/>
+    <selectionType typeId="abd6d0e6-9896-4df5-9400-86981bd6a060" valueTypeId="1439b16b-10ef-4b5b-8017-3138b213f797"/>
+    <listType typeId="44f3806f-248a-484c-a15f-a71322a7cee2" valueTypeId="c47cf983-5eb5-4a8d-8a33-7967f1e25202"/>
+    <managerType typeId="970c1270-1387-454f-a145-102bb04c623a" valueTypeId="78ecf205-a60a-41ab-afb8-aadb763fe2d5"/>
+  </producedTypes>
+  <name>Основания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания</value>
+  </synonym>
+  <comment>Основания ремонта (изъятия)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Основания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Основания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8ae14e20-189e-491f-bcb7-656828ff5a85">
+    <name>ТипОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип основания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыОснования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

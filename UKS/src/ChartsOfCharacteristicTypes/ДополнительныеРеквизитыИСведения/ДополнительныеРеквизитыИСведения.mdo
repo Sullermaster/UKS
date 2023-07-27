@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="212e7256-53f9-44d3-8427-6529c0f4c111">
+  <producedTypes>
+    <objectType typeId="efc0ff00-7578-4e42-90fa-f177edf36ea6" valueTypeId="fd98f601-8d1e-4b66-b317-a3c611c089a7"/>
+    <refType typeId="3a37d56b-2570-4327-9d3a-a49251b25713" valueTypeId="ead82e4d-211e-4093-ad64-9b42806082ec"/>
+    <selectionType typeId="644e48bc-d889-4e4a-b57f-970aefa07462" valueTypeId="e710d364-9e4c-462f-abe9-32a7e79bdcea"/>
+    <listType typeId="2b2790fc-71a9-4fe1-8510-99efe218dca5" valueTypeId="efd7eb27-d8cd-4be5-a929-33e0b9341db4"/>
+    <managerType typeId="56eacc71-f475-4d59-951a-2ef5d8ad3afb" valueTypeId="9816f4fa-cc04-4e92-b68e-0d273a236783"/>
+    <containerType typeId="e228773e-8781-44af-9d26-be00dfaaa795" valueTypeId="12e8c868-8b71-4225-b17a-2d4938a5b67f"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты и сведения</value>
+  </synonym>
+  <comment>Дополнительные реквизиты и сведения</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительный реквизит / сведение</value>
+  </objectPresentation>
+  <characteristicExtValues>Catalog.ЗначенияСвойствОбъектов</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>CatalogRef.Оборудование</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Номенклатура</types>
+    <numberQualifiers>
+      <precision>18</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5913df53-33b4-4c4a-adfb-1c2a5cbbf5ea">
+      <name>РеквизитыНоменклатуры</name>
+      <description>Реквизиты номенклатуры</description>
+      <isFolder>true</isFolder>
+      <code>000000001</code>
+      <type/>
+    </items>
+    <items id="b4d584bb-45ea-4a3a-977b-820c4250e304">
+      <name>РеквизитыОборудования</name>
+      <description>Реквизиты оборудования</description>
+      <isFolder>true</isFolder>
+      <code>000000002</code>
+      <type/>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Form.ФормаСписка</defaultListForm>
+  <forms uuid="4040eba4-8477-43a1-b29d-953ed718df03">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0e9e56c-8051-4637-8819-79038aa1fc3e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

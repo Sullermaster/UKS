@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="823ebc0f-1721-44ee-903f-a4746847ba49">
+  <name>Геология</name>
+  <synonym>
+    <key>ru</key>
+    <value>Геология</value>
+  </synonym>
+  <comment>Геология</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.КонвертироватьXMLвEXCEL</content>
+</mdclass:Subsystem>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f0225d6-fc1f-4ebf-9562-98f662c47149">
+  <producedTypes>
+    <objectType typeId="8d29a0df-b969-41d9-b9f1-6cc84a89588e" valueTypeId="e3bb8659-d8ee-423c-a820-32484f3d600f"/>
+    <refType typeId="ca3a4ad7-9abc-4446-954f-ea287b0beb50" valueTypeId="e2d0d6f6-2a0f-48d4-a47d-08626d62aee2"/>
+    <selectionType typeId="c52ade7a-587e-4962-9b86-bff1d737ae06" valueTypeId="a81dd150-17ee-44e1-b3d8-99d5e09d4556"/>
+    <listType typeId="e47a76b7-555c-4ab6-921d-c78848f0e828" valueTypeId="d8f4ab41-6d33-4f0c-8920-391e2812e112"/>
+    <managerType typeId="45d11a9f-de9a-46a3-92e6-8992ef8f4dfb" valueTypeId="e4c9a6cb-7593-43c4-818e-a727a7e7f965"/>
+  </producedTypes>
+  <name>ОборудорваниеДляОтпечатаныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудорвание для отпечатаных листов</value>
+  </synonym>
+  <comment>Список оборудования для отпечатаных листов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОборудорваниеДляОтпечатаныхЛистов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОборудорваниеДляОтпечатаныхЛистов.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="3e364f51-f3f0-49a6-ab78-268bdac270b6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="97978996-7bad-4e8e-ba9e-ceed6de94362">
+    <producedTypes>
+      <objectType typeId="0ea76789-ff85-4e9d-9544-6bda6b57dae2" valueTypeId="231c728c-4872-4064-9490-504f6e983788"/>
+      <rowType typeId="968f9599-036f-464b-90a1-437a148c3d20" valueTypeId="a78e07b9-2d6b-4c45-b0b2-081dd1ead45f"/>
+    </producedTypes>
+    <name>СписокОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список оборудования</value>
+    </synonym>
+    <attributes uuid="5da6147b-fddd-4dc6-808a-84770c154072">
+      <name>Оборудование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оборудование</value>
+      </synonym>
+      <comment>Оборудование</comment>
+      <type>
+        <types>CatalogRef.Оборудование</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d27e5f08-c9aa-491f-94c8-9879e8d44fec">
+      <name>РазмерЛиста</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер листа</value>
+      </synonym>
+      <comment>Размер листа</comment>
+      <type>
+        <types>EnumRef.РазмерыЛиста</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5a0d9605-69a1-423d-9a5d-215b101b486a">
+      <name>ЦветПечати</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цвет печати</value>
+      </synonym>
+      <comment>Цвет печати</comment>
+      <type>
+        <types>EnumRef.ЦветПечати</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

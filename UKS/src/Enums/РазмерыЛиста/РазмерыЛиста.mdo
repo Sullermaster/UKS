@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf93698d-f225-45f6-b35f-78b9bd1aa8e6">
+  <producedTypes>
+    <refType typeId="4333c44f-eae3-429b-b37c-7a9ddca06df7" valueTypeId="d58ffa2f-cd88-41fc-a3a1-25bb6cb93d3e"/>
+    <listType typeId="5dcfa6e8-45ae-433c-a82e-3f6854df3956" valueTypeId="94cc06b1-4d30-45f6-8acd-05d762babb2b"/>
+    <managerType typeId="3266d42c-7cbf-4e22-b504-a46659b7115d" valueTypeId="08f1f13f-e861-4c04-bf8e-15baef37bc59"/>
+  </producedTypes>
+  <name>РазмерыЛиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размеры листа</value>
+  </synonym>
+  <comment>РазмерыЛиста</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Размеры листа</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Размеры листа бумаги</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Стандартные размеры листа бумаги</value>
+  </explanation>
+  <enumValues uuid="928c4165-0b64-4394-bd69-c8d180a851ea">
+    <name>А0</name>
+    <synonym>
+      <key>ru</key>
+      <value>А0</value>
+    </synonym>
+    <comment>841×1189 (мм)</comment>
+  </enumValues>
+  <enumValues uuid="4ceaf40a-c489-4d0b-9c98-6b5b364f5558">
+    <name>А1</name>
+    <synonym>
+      <key>ru</key>
+      <value>А1</value>
+    </synonym>
+    <comment>594×841 (мм)</comment>
+  </enumValues>
+  <enumValues uuid="b30a32b2-eccb-4cfc-b8d3-672f703872e5">
+    <name>А2</name>
+    <synonym>
+      <key>ru</key>
+      <value>А2</value>
+    </synonym>
+    <comment>420×594 (мм)</comment>
+  </enumValues>
+  <enumValues uuid="b165024b-2086-4e27-8e94-1c6edfaa0335">
+    <name>А3</name>
+    <synonym>
+      <key>ru</key>
+      <value>А3</value>
+    </synonym>
+    <comment>297×420 (мм)</comment>
+  </enumValues>
+  <enumValues uuid="700e39fb-4d58-43ae-a076-d8c18462eff8">
+    <name>А4</name>
+    <synonym>
+      <key>ru</key>
+      <value>А4</value>
+    </synonym>
+    <comment>210×297 (мм)</comment>
+  </enumValues>
+  <enumValues uuid="ea6943f9-65f4-4256-8cb7-2978d3b608d5">
+    <name>А5</name>
+    <synonym>
+      <key>ru</key>
+      <value>А5</value>
+    </synonym>
+    <comment>148×210 (мм)</comment>
+  </enumValues>
+  <enumValues uuid="eb7fb7a1-a4eb-4e77-aab9-c9c5a2e347e1">
+    <name>Другой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другой</value>
+    </synonym>
+    <comment>Другой</comment>
+  </enumValues>
+</mdclass:Enum>

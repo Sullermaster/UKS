@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ec7c91f-737c-4cf1-bcc4-ea75ecb43e57">
+  <producedTypes>
+    <objectType typeId="65dd81f0-fcaa-484e-afdb-afd2c13d67d9" valueTypeId="36fafcc6-8b96-4dc7-9591-c29742c7ea44"/>
+    <managerType typeId="dd4d89ec-ab75-4ed2-9efa-57b3cd0749c2" valueTypeId="1e1b4746-e79d-403b-bcf3-77214a19887b"/>
+  </producedTypes>
+  <name>Документооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документооборот</value>
+  </synonym>
+  <comment>Документооборот</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Документооборот.Form.Форма</defaultForm>
+  <attributes uuid="02b2229c-1de1-4d0c-b097-c896de790f3e">
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableObject.Документооборот.users</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7777e252-9377-4dbc-92fd-69bfd66ff1f6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

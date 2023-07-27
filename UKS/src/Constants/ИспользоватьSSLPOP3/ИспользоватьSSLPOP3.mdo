@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18ee41a8-ac7d-466d-bb61-8da6f74d028a">
+  <producedTypes>
+    <managerType typeId="877662e2-de10-46ce-b37f-d5c5b9d4ace9" valueTypeId="357d5b3a-1508-4163-975c-c573e4c6cfc1"/>
+    <valueManagerType typeId="9d20bc3d-8899-4733-b25a-7018cdec8e77" valueTypeId="84fceec7-7c75-4e11-9fae-fb941a41cf5a"/>
+    <valueKeyType typeId="de69be28-f962-40c1-8996-77712ef7c5f0" valueTypeId="9c05f4a9-22ac-4c22-babf-5089284bae79"/>
+  </producedTypes>
+  <name>ИспользоватьSSLPOP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать SSLPOP3</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

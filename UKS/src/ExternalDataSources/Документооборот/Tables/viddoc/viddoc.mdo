@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7245fd8-83a2-49ef-b155-cefded62150b">
+  <producedTypes>
+    <refType typeId="97493abb-2074-4661-aa7f-f8331ebf61aa" valueTypeId="3f289ff2-9576-4a43-97d8-1f56c22cb2c1"/>
+    <listType typeId="510bbf02-3bcb-4010-8525-010fd7e80a1c" valueTypeId="8c096ab1-4928-426c-bc3b-a9279a2c22b9"/>
+    <objectType typeId="caf36979-ab2b-4084-8f36-31db95d771af" valueTypeId="6e70312d-7341-4a36-8272-ec64a42ed8e5"/>
+    <managerType typeId="a2d7417c-b0f5-40fe-806b-743df898d77c" valueTypeId="3ba65b95-e506-4347-9c6e-26c7a7d1ba0c"/>
+    <recordManagerType typeId="136d6351-3944-4619-bb62-7f1af8e48db7" valueTypeId="b891d427-e0db-47c6-8e81-972c6089ba29"/>
+    <recordSetType typeId="044a6ad5-3f5f-4a30-9c62-24c07f280946" valueTypeId="0078c5f3-1819-45ae-bed6-348d0ec50e58"/>
+    <recordType typeId="90e52a76-0207-4ea2-b1ce-c23d49c5a5b1" valueTypeId="f7b89a1e-d410-4cb3-8f29-8aaf662a0465"/>
+    <recordKeyType typeId="b8fb600e-ac6c-486b-8ded-b74faa28d456" valueTypeId="031f07a8-7435-46fa-be80-dcaea3ab9f8f"/>
+  </producedTypes>
+  <name>viddoc</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>viddoc</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.viddoc.Field.vid_numa</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.viddoc.Field.vid_numa</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="8d41613b-9a5c-45d3-9545-50390b49c663">
+    <name>vid_numa</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vid_numa</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="bbdf202d-7e6b-4dda-bd7c-e54d1712ddbe">
+    <name>vid_nvid</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vid_nvid</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="b1d15d2b-0d08-40d6-accd-0e0eb09498c2">
+    <name>vid_name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vid_name</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="6918aff5-1883-47e5-812f-56cd37858ac3">
+    <name>vid_day</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vid_day</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7906de56-0ac7-49f1-8aee-07b4ac3723fe">
+    <name>vid_lock</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vid_lock</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

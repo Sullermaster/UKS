@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fbd0d93-63f0-4645-bb40-82bdee1985c2">
+  <producedTypes>
+    <refType typeId="d078fe7d-0cd8-4cb7-9772-fc6fe64c5409" valueTypeId="aae11e35-60d3-49b6-9b0b-beafe77c09ca"/>
+    <listType typeId="a0bf8d94-8496-4fd9-9f94-6384e4be5e7c" valueTypeId="b19bd06f-86f5-4991-b87f-d4028446e07b"/>
+    <objectType typeId="78677b3a-1476-45ec-9a5a-3080a0679fb3" valueTypeId="0aec784b-aff1-46b0-ba74-af75137409b6"/>
+    <managerType typeId="60125054-2e40-4735-b06b-51b3cc21ee76" valueTypeId="902323e1-4fb0-4305-ba09-6927fa79db96"/>
+    <recordManagerType typeId="a7d88f4b-263e-400c-9a01-5af5f5732966" valueTypeId="f1bb73c3-5cb3-4648-a51c-4fcd64953f6f"/>
+    <recordSetType typeId="4d8ccf14-c324-48a4-8b3a-4925180297ad" valueTypeId="230e0bdb-e94d-4ed7-b47c-96eca4338360"/>
+    <recordType typeId="44e85fa6-d7f4-41b5-b99d-feed5fa80900" valueTypeId="bc17d4c5-b020-49b0-8b8e-3da89768af3a"/>
+    <recordKeyType typeId="ec9cedc4-6e7c-43bf-8bdb-df1c1a8fd27c" valueTypeId="2bdac323-6e23-43ff-86c1-5508b686d173"/>
+  </producedTypes>
+  <name>korfiz</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>korfiz</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.korfiz.Field.kf_num</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.korfiz.Field.kf_num</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="3cd29860-f4bc-4b81-a7a1-224b682f2a83">
+    <name>kf_num</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>kf_num</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="66e2a2ee-a7ab-46f6-bb18-2cc59cad7b2c">
+    <name>kf_knum</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>kf_knum</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="66c87329-e9ff-4112-aee2-75e88958da25">
+    <name>kf_fio</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_fio</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ec22e69a-0ea6-4ffc-9161-71f2065bf9f1">
+    <name>kf_raion</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_raion</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8f445d1c-8c4e-4d38-a882-993870eccfa4">
+    <name>kf_po</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>kf_po</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c7dfe4ff-63bb-4727-843a-69bf2373daeb">
+    <name>kf_city</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_city</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ae769a10-8e9d-464c-b15b-7077769e34ed">
+    <name>kf_adres</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_adres</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="d2574f5b-2096-4d77-a454-ae9d46708a3e">
+    <name>kf_mail</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_mail</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="fe114781-48d6-48e8-b4e6-6da35ee8eafa">
+    <name>kf_trab</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_trab</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="b7b59ac3-03b2-4576-a938-f0f783119420">
+    <name>kf_thoms</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_thoms</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="0d02dbc5-1444-4a8a-962a-72b8c34f488b">
+    <name>kf_tsot</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>kf_tsot</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ff20063e-7d43-4a78-99f4-dbb5a5d3cc03">
+    <name>kf_lock</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>kf_lock</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

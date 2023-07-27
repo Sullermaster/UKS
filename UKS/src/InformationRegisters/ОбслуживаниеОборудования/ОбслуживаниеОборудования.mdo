@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3acb3f6a-7a5b-463d-b94e-c9777c5cd9ae">
+  <producedTypes>
+    <selectionType typeId="30974850-938d-471f-9502-c2ad0e9ca528" valueTypeId="f69c7d0a-cb18-4f9e-88ce-d5ed37a12ad1"/>
+    <listType typeId="38f617a9-3aec-4364-a6aa-6df93af28838" valueTypeId="66ce1fe1-0aa4-47e4-b3ea-ae22fd324f49"/>
+    <managerType typeId="63834fd5-65ba-41a2-8878-cf1dba6ee1d3" valueTypeId="5bb552dc-999c-4e11-b525-9bcec0a5cf99"/>
+    <recordSetType typeId="c54a4f4f-87dd-4bec-b513-f6c993484beb" valueTypeId="92cfbc00-52fd-4e85-b304-abe2d6fa6bb6"/>
+    <recordKeyType typeId="aed59952-5943-4ba9-ad26-723c0e31ff69" valueTypeId="ee9fb7ea-cf12-41d0-9855-daaee36ce4da"/>
+    <recordType typeId="61993f7b-2b6f-4e76-b9ba-50ebec53b7ec" valueTypeId="aed11116-54cb-4ee5-9e55-6e6c32b3bc67"/>
+    <recordManagerType typeId="11c89c7d-1562-4ea1-ab6f-d6d723a4b563" valueTypeId="2866b323-3ca4-48a6-8281-5efdb738e797"/>
+  </producedTypes>
+  <name>ОбслуживаниеОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="6f5a475d-6dd3-4eac-a086-cf24f8d9c0fd">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="a9ab73ff-54a4-48b2-9480-831c0238c2ae">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <comment>Оборудование</comment>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2e4393f5-d151-42fd-8aca-e00dca0b144d">
+    <name>ВидОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обслуживания</value>
+    </synonym>
+    <comment>ВидОбслуживания</comment>
+    <type>
+      <types>CatalogRef.ВидыОбслуживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="70a2a8da-4b4d-4f77-b2f1-fb3cb91d4dd0">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

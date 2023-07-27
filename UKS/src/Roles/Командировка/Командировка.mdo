@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8df29c70-27e3-4f6f-82a5-f8573cd8af76">
+  <name>Командировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Командировка</value>
+  </synonym>
+</mdclass:Role>

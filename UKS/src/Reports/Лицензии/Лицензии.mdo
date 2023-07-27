@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="005f150b-3bb5-4514-bc92-ff866a980517">
+  <producedTypes>
+    <objectType typeId="50683978-5454-490f-a0ed-333883f7b008" valueTypeId="bdb8a1c3-a784-4077-b0b4-28f74cbd4184"/>
+    <managerType typeId="21b56347-b372-4f1b-be99-e80d90d092f0" valueTypeId="7d71792a-5aa6-4b8c-9ec3-ed0e9db6c474"/>
+  </producedTypes>
+  <name>Лицензии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии</value>
+  </synonym>
+  <comment>Лицензии</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Лицензии.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="efcde4d3-42f7-49d1-a76d-e7f731b867ed">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

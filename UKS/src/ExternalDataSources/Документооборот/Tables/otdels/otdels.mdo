@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7383005-e40f-4289-b847-8ffad175dbb7">
+  <producedTypes>
+    <refType typeId="130d4ca0-0a56-4e0b-a215-53d73a4ee812" valueTypeId="13491f46-a640-449a-9ca9-3eeb293f4658"/>
+    <listType typeId="602f4091-3e69-40a3-b09b-48500b5a6937" valueTypeId="50b470dd-df19-4607-b819-85d1bc93c5e8"/>
+    <objectType typeId="ae76820f-3d2c-4544-8587-4e752ff01fe9" valueTypeId="1668ed5b-a50b-4bd9-b789-a4632fde9c95"/>
+    <managerType typeId="30738d74-97d7-47ef-a9d8-ae3bfd381a43" valueTypeId="32af2fe6-5450-4827-92fd-c5f5bae9d6a5"/>
+    <recordManagerType typeId="abbdaf0d-5be9-4f21-a9d7-8b93772a6fba" valueTypeId="be30e097-ede7-4fa6-b4af-95a358d00e88"/>
+    <recordSetType typeId="e738a8ad-0dcf-4d87-ae8b-47bab77f2950" valueTypeId="4ab02efe-d7bd-498e-b93e-af09859f8fb2"/>
+    <recordType typeId="dc4d600b-c64d-4311-9714-ba2f9105b7da" valueTypeId="76a73221-0c39-42f1-b6f2-e76845b9eca4"/>
+    <recordKeyType typeId="a12f13f4-89d1-495d-9832-a7c788a88d21" valueTypeId="194ea8ec-9ac0-4c27-a3d0-458d642cf6d4"/>
+  </producedTypes>
+  <name>otdels</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>otdels</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.otdels.Field.ot_numa</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.otdels.Field.ot_numa</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="057b189c-41d7-449d-8d33-c07d770f8687">
+    <name>ot_numa</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ot_numa</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="fe0a958c-a75e-4401-b13c-4c582f2bc6eb">
+    <name>ot_numotdela</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ot_numotdela</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c02eb562-0a55-4725-ae0a-6dd993995260">
+    <name>ot_name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ot_name</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="db4e62ab-0552-4cb3-90eb-e0f14b4412be">
+    <name>ot_numerator</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ot_numerator</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="88b78730-5609-4ebf-8158-43a004240f5c">
+    <name>ot_lock</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ot_lock</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

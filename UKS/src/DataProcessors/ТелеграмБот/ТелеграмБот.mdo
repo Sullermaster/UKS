@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="757f6ac0-3ea0-4053-88c7-3b5d3da3dd74">
+  <producedTypes>
+    <objectType typeId="e067ad7f-bd90-482a-9b58-6297f43064a9" valueTypeId="c5119b81-253d-46eb-a3a0-72e3191c44e0"/>
+    <managerType typeId="af0a3c54-c9bd-4d37-841f-91743e7d54c5" valueTypeId="abd33e70-ef12-4212-991f-7e3cedb6859c"/>
+  </producedTypes>
+  <name>ТелеграмБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм бот</value>
+  </synonym>
+  <comment>Телеграм бот</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТелеграмБот.Form.Форма</defaultForm>
+  <attributes uuid="2526310e-69a4-40f1-af86-e3b849a13299">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <comment>Бот</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="290a12de-1063-4f93-be7a-9466c883a358">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <comment>Токен</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="85f87dcf-7012-4b18-b7e9-421e5b17e55c">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <comment>Сервер</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a75dc044-c711-4e46-9794-be74631349e9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

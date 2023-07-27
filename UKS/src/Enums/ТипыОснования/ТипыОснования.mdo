@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e4aae9e-721d-4617-a2ac-49bb5a05418e">
+  <producedTypes>
+    <refType typeId="509dab19-67e4-4338-b425-eca43169d3b0" valueTypeId="14a00893-b077-4df1-a746-c9f1cf353885"/>
+    <listType typeId="499e1d05-7e4c-421f-890a-cd4d02095ce7" valueTypeId="36566a99-0bfa-4c88-b8ae-640da10c3ebe"/>
+    <managerType typeId="05ebcc6d-a81e-4e5a-aef7-2fb1352bf398" valueTypeId="ff92ec38-cf4c-4272-b119-53cba8a1edf3"/>
+  </producedTypes>
+  <name>ТипыОснования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы основания</value>
+  </synonym>
+  <comment>Типы основания</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="89229505-9d9e-427e-9276-675f6c2d727f">
+    <name>Ремонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонт</value>
+    </synonym>
+    <comment>Ремонт</comment>
+  </enumValues>
+  <enumValues uuid="ef58f003-26f6-45c2-ab4f-30941e420337">
+    <name>Изъятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изъятие</value>
+    </synonym>
+    <comment>Изъятие</comment>
+  </enumValues>
+</mdclass:Enum>

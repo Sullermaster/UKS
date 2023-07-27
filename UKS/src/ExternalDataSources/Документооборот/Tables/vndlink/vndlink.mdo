@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff150e88-c186-416d-bd88-22a39e6c82d9">
+  <producedTypes>
+    <refType typeId="cf38204c-c48c-4ea1-bd60-f6110905e92b" valueTypeId="86e5de5c-b3ac-4fd9-b1af-7712f971e5f6"/>
+    <listType typeId="acd2c995-d4ed-4006-bb47-d8b454921254" valueTypeId="21b89f21-35a4-43e5-a19a-329db638fb26"/>
+    <objectType typeId="edd8b70c-ba82-468b-a1b3-b685c09d6299" valueTypeId="8cc9aaeb-ab32-41a7-aa5e-7d416ac9d86d"/>
+    <managerType typeId="4f695250-493a-4a2c-844c-854a9eafbb26" valueTypeId="2ffd64e3-023d-4639-bd3a-347750549c44"/>
+    <recordManagerType typeId="c5d3ce90-6c77-41f1-8a60-45252ca59ff2" valueTypeId="4331dea8-4a3f-4265-970a-c8d528dab056"/>
+    <recordSetType typeId="2b44c20f-0f14-46fb-b69c-a38034f4e01c" valueTypeId="0d7dc5ed-f606-4dcb-a41b-f1952ddab96f"/>
+    <recordType typeId="317c84d4-105d-421d-b78e-523e5fe897c2" valueTypeId="777a7fe1-8619-4573-b358-8b484ba4aedd"/>
+    <recordKeyType typeId="f8ddf107-a065-4fb8-8a4a-82b6ea849baf" valueTypeId="7a1b5601-1994-4652-9bd7-8840704a4862"/>
+  </producedTypes>
+  <name>vndlink</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>vndlink</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.vndlink.Field.l_numa</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.vndlink.Field.l_numa</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="70bf910a-00f0-4226-9882-5a2db8614ec1">
+    <name>l_numa</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>l_numa</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="2be599ad-a77f-4848-80a9-476cd1eb8c27">
+    <name>l_date</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>l_date</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="2130c500-1902-4102-92da-e294790acc23">
+    <name>l_fio</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>l_fio</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="e232dc7f-d8de-4d3e-9252-5587510afd80">
+    <name>l_link_tip</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>l_link_tip</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="3f17d81c-c953-471c-b191-85b4f8526138">
+    <name>l_memo</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>l_memo</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ad8058d3-0c02-41d9-b1ce-4df43beafcdb">
+    <name>l_k1_numa</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>l_k1_numa</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="740edb95-32fd-41c1-aa3f-3b36be271101">
+    <name>l_k1_key</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>l_k1_key</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="138dd7ab-c04e-40e7-b070-2942f599f6bc">
+    <name>l_k2_numa</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>l_k2_numa</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="d18a4610-00bf-4130-ab56-787f0cd70fbc">
+    <name>l_k2_key</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>l_k2_key</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="d6fbd738-4031-46aa-b76e-fed8fe829aec">
+    <name>l_k2_dreg</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>l_k2_dreg</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

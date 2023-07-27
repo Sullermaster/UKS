@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f0e36c5-30f4-4223-b1ed-ff3256b2f3d8">
+  <producedTypes>
+    <selectionType typeId="f267b569-8802-4d06-a417-22624ab9696c" valueTypeId="70632e13-ca7d-46f5-a313-d636801b01eb"/>
+    <listType typeId="d6e9e6e9-f647-4d75-97af-da0b065431b7" valueTypeId="a44b8c0f-9757-4ce1-b6a1-addf8d984154"/>
+    <managerType typeId="ded17536-8ad0-4ed0-add3-309383e9568a" valueTypeId="9189578b-6877-47c0-b02e-9cc20f66a199"/>
+    <recordSetType typeId="77e50c16-57c3-4608-823f-a98c9fb50b9c" valueTypeId="406da046-ebe0-4839-92e2-2259cb521972"/>
+    <recordKeyType typeId="fb5e2dbe-d9e7-4ab6-b851-b296ce986ab5" valueTypeId="e33089e4-c2e0-4abc-a59c-c83bc7e3157b"/>
+    <recordType typeId="866cbb49-cbb9-4bba-8fae-174b9b6045fd" valueTypeId="bb92d823-7871-45ba-948e-5eae0024612e"/>
+    <recordManagerType typeId="76d87228-0150-4b18-8210-2b5ec421e238" valueTypeId="36686ca3-d43e-4d6a-a02a-06aef7be7e60"/>
+  </producedTypes>
+  <name>ПоказателиЗначенийХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели значений характеристик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПоказателиЗначенийХарактеристик.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПоказателиЗначенийХарактеристик.Form.ФормаСписка</defaultListForm>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Характреистика</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Характеристика</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </extendedListPresentation>
+  <resources uuid="1ed5cbc8-e359-471c-9238-60dd5d03b05f">
+    <name>ЗначениеСвойстваОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение свойства объекта</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.ПоказателиЗначенийХарактеристик.Dimension.СвойствоОбъекта</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="39016e71-530c-4bb7-ae4a-a930e2f1abcc">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>Объект</comment>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="accbe119-b1a8-41ae-88a5-41ad5d206cb9">
+    <name>СвойствоОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство объекта</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="315b575c-e0c9-4164-bcb0-2f351a6bca71">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4e1be63a-5474-4481-bcf7-78080e821255">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

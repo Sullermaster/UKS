@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04535a6a-2ebc-4150-8c7f-226477e03b65">
+  <producedTypes>
+    <objectType typeId="cce5c896-786d-407b-8e3e-73140dcebe90" valueTypeId="fc85304f-02ad-498b-ba01-0ee8eb144e12"/>
+    <refType typeId="b8633e55-91db-4f39-96d6-d65e40976179" valueTypeId="d02c0b84-483f-417c-bc1e-aee570a4fc3c"/>
+    <selectionType typeId="bcccda9e-1cc3-4b63-bdf8-895bc9614feb" valueTypeId="9ce2087c-894d-4d0c-875b-a14dbe0e4fc6"/>
+    <listType typeId="f1fee6a9-66ae-4dcd-bd57-2c524ce26de2" valueTypeId="7857e948-01e7-4ac4-a3e4-e0d9fec4ce61"/>
+    <managerType typeId="bb728e28-40c2-43d7-8624-0ab681c9baed" valueTypeId="cc2f655d-90ba-44a2-b99d-36652e45a369"/>
+  </producedTypes>
+  <name>Изготовители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изготовители</value>
+  </synonym>
+  <comment>Изготовители</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Изготовители.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Изготовители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Изготовитель</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Изготовитель</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Изготовители</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Изготовители</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Изготовители</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41b82a32-e20f-4e6f-bd01-c6a45ec5bb4e">
+  <producedTypes>
+    <refType typeId="77c8de45-48cf-48e4-92e9-20fa80b4f241" valueTypeId="b521f5d2-da3d-45c7-8cf1-e5fa68fa691d"/>
+    <listType typeId="42c9d24b-eef6-4877-b847-b27359456135" valueTypeId="beadb907-f4a3-46dd-a7d4-98cfd9476f1b"/>
+    <objectType typeId="768b7926-83e3-45d7-89df-84d89b39c3f2" valueTypeId="2ade286f-7ae8-435d-8bd5-9f86f6cc622b"/>
+    <managerType typeId="8ef751f8-cd60-4bbb-a576-22dcf9c86563" valueTypeId="2cf8a5e8-5994-472c-9909-8f8c6996d90d"/>
+    <recordManagerType typeId="16ea9cc8-c207-483d-902a-3206f3be6dbb" valueTypeId="71960213-0f59-4fb3-9bc0-53b899b90389"/>
+    <recordSetType typeId="a634cbd6-2fb8-4bb8-8056-847d89d5b5a7" valueTypeId="43a96a14-ec9c-4eff-a766-04ad4306f95d"/>
+    <recordType typeId="8ffcb36b-8d61-481a-846d-33532d386848" valueTypeId="3ae6fba7-6551-4db5-8160-7d49d4f57f3f"/>
+    <recordKeyType typeId="00d28ad4-40f4-40f0-9f56-f3b32a5536e2" valueTypeId="3a680c1a-f82f-41d0-8a03-5f0e9fc4f0bd"/>
+  </producedTypes>
+  <name>vndfiles</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>vndfiles</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.vndfiles.Field.f1_num</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.vndfiles.Field.f1_num</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="0a39132a-b5fa-4b43-92e0-fccf65663378">
+    <name>f1_num</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>f1_num</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7f337cb9-4cc2-48e1-9cc4-fba3c5e52ccf">
+    <name>f1_key</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>f1_key</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="f69425a1-387a-4095-a498-2218eb4d9736">
+    <name>f1_fname2</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>f1_fname2</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="0d57dbab-21d8-4fd0-a424-afd7373d8f6c">
+    <name>f1_fname</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>f1_fname</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="3d887764-726f-4fcc-b5ee-5d409f81bfbc">
+    <name>f1_dat</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>f1_dat</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c6bb0a89-0b6d-4601-8991-a2c7a366d2b1">
+    <name>f1_data</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>f1_data</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="35225835-e408-4e75-8a18-fff82c736068">
+    <name>f1_fio</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>f1_fio</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="1afa62e2-eaf7-4483-8d3b-29fe3f2311eb">
+    <name>f1_info</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>f1_info</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

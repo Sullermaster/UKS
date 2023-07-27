@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7078ee82-e19c-40da-ab2f-e2fb636cdf6d">
+  <producedTypes>
+    <selectionType typeId="c105c182-092f-49fe-b516-d7833dbd3d4d" valueTypeId="a905a0db-d630-4349-9763-93440f3582bd"/>
+    <listType typeId="fefe00c6-0537-4bf0-b2fc-fbf672c8cd46" valueTypeId="26108182-34f2-4548-a8c3-f180b9755101"/>
+    <managerType typeId="210d31fb-b802-4b57-aa8a-170a6ddd0fde" valueTypeId="884d2fab-b37a-478d-9d25-b0ebf1166e6b"/>
+    <recordSetType typeId="9c90a08c-7827-428b-8eec-db27bef67693" valueTypeId="75a44535-6a93-428e-941e-afa2b3c8e8d5"/>
+    <recordKeyType typeId="008317c7-2666-4e9e-8f0e-f2604e64999a" valueTypeId="b92d02d5-d406-4709-a5f2-bdbe96c2b1e5"/>
+    <recordType typeId="a70d2195-e282-4ed9-9cb4-3f876766ec3a" valueTypeId="c043af2b-820c-4544-ae90-858be3fb2b76"/>
+    <recordManagerType typeId="6a1d172d-395b-4278-ae48-5384f004e5d4" valueTypeId="b3d9bdb8-06c5-43c6-8180-86dfa6a08426"/>
+  </producedTypes>
+  <name>Договора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора</value>
+  </synonym>
+  <comment>Договора лицензий</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d834aa30-40ee-4879-8a6b-710f9dbe8b91">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment>Количество лицензий</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="29fb20b1-7a9a-4680-8068-eaceab98c87f">
+    <name>СуммаПоДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма по договору</value>
+    </synonym>
+    <comment>Сумма по договору</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="722b3827-9961-4543-b9f3-47e40c290757">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment>Дата начала лицензии</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="beef83e0-e2ef-40c6-a2b6-f19b0f77c0ce">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment>Дата окончания лицензии</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="086f3386-c596-4beb-bbae-11df85e355c9">
+    <name>ПрограммныйПродукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программный продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммныйПродукт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1e9b52a0-8030-4664-b9c4-4105e5e1b8cf">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment>Контрагент</comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

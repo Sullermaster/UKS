@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86a31670-ad27-45cf-abf2-847f1217ee9c">
+  <producedTypes>
+    <managerType typeId="1f966924-f197-4c96-9923-5c26f782b62e" valueTypeId="af3c293c-8363-478b-879f-7a3a38d2f2ad"/>
+  </producedTypes>
+  <name>YandexSpeller</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс орфография</value>
+  </synonym>
+  <comment>Проверка орфографии в Яндекс</comment>
+  <locationURL>http://speller.yandex.net/services/spellservice?WSDL</locationURL>
+</mdclass:WSReference>

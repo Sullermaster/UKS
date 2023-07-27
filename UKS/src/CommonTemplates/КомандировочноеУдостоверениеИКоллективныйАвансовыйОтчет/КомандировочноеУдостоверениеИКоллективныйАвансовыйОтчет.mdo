@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08beb02d-dd72-43b3-afcc-d9081edab525">
+  <name>КомандировочноеУдостоверениеИКоллективныйАвансовыйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Командировочное удостоверение и коллективный авансовый отчет</value>
+  </synonym>
+  <templateType>ActiveDocument</templateType>
+</mdclass:CommonTemplate>

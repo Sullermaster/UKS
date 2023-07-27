@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ea4c5e5-eb24-4570-9e62-132e0c1ed3f5">
+  <name>ЗаявкаНаРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Ремонт</picture>
+  </picture>
+  <content>Document.ЗаявкаНаРемонт</content>
+  <content>InformationRegister.СостояниеРемонта</content>
+  <content>Enum.СостояниеРемонта</content>
+  <content>Report.СводнаяИнформацияОВыполненыхЗаявкахВРазрезеПодразделений</content>
+  <content>Report.ОтчетОколичествеВыполненныхЗаявокСотрудниками</content>
+  <content>InformationRegister.РегистрВыполненыхРабот</content>
+  <content>Report.ИнформацияПользователяОВыполненыхЗаявках</content>
+  <content>Document.ЗаказЗаявкаРаспечатка</content>
+  <content>Report.ОтчетПоСвободнымЯчейкам</content>
+</mdclass:Subsystem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b51d968e-aff5-4eed-bd8d-efcd8c202026">
+  <producedTypes>
+    <managerType typeId="aa6a033b-0769-47a7-acc3-edc40e0fc30a" valueTypeId="3b2d6f9d-af9f-4fec-8165-86db3aa795ef"/>
+    <valueManagerType typeId="68cd752a-f06f-4818-b526-c2ecd37f8da1" valueTypeId="37fc15f0-1c54-43a4-a30c-82b0168c261a"/>
+    <valueKeyType typeId="e30aa83c-16e1-4cb5-9ca0-fd49c6a348e7" valueTypeId="a85b724a-01a1-43bd-a080-cde49e104d8b"/>
+  </producedTypes>
+  <name>Сервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервер</value>
+  </synonym>
+  <comment>Телеграм сервер</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

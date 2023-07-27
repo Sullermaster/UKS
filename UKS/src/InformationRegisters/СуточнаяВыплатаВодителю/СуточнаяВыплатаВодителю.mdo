@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="659ccc26-7417-4097-bb18-bc2edf7649e1">
+  <producedTypes>
+    <selectionType typeId="5313550a-c3fd-410a-87f1-8e27ded78bfd" valueTypeId="e6a3060d-6d17-47ab-898d-e03a2112ce69"/>
+    <listType typeId="58fd2f32-5df4-441a-8e32-40bd29fad9cc" valueTypeId="2eae50f8-c07f-4526-8cb1-59400b487864"/>
+    <managerType typeId="7b9b530d-57ff-4b9b-b7aa-f9ce5a7286cf" valueTypeId="806dceb8-2e54-491e-be72-db8f8c631478"/>
+    <recordSetType typeId="3358a0e3-3bfa-4238-a54d-37c369897e43" valueTypeId="e508b3bb-61a0-406b-8451-cb0ac2434ecb"/>
+    <recordKeyType typeId="a0313d19-009e-4428-8e4c-255507fd472c" valueTypeId="25655683-a7d5-470e-b65f-96e8d325fd79"/>
+    <recordType typeId="621fd783-9e76-446f-bbeb-fbc8f0aeaa69" valueTypeId="a300ee27-56a1-46c8-81d4-9f5c1d110f86"/>
+    <recordManagerType typeId="2c6282fa-392c-4fde-9a53-799c5a5db5e4" valueTypeId="d669922d-cde4-4a08-96ff-bda7eaf090c2"/>
+  </producedTypes>
+  <name>СуточнаяВыплатаВодителю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Суточная выплата водителю</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="1feafc6f-54f6-4682-ac70-447c240c473e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

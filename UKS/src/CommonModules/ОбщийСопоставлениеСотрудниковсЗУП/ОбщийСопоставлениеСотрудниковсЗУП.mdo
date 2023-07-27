@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="879d6240-ae46-4c03-86e2-d64e420ec671">
+  <name>ОбщийСопоставлениеСотрудниковсЗУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий сопоставление сотрудников с ЗУП</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

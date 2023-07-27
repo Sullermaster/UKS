@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e19ebbf-90dc-4f00-b675-409e3947092e">
+  <name>КомандировочноеВПриказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Командировочное в приказ</value>
+  </synonym>
+  <templateType>ActiveDocument</templateType>
+</mdclass:CommonTemplate>

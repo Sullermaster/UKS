@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17d5600f-18da-4321-be0a-1ef89a39cb69">
+  <name>КонвертацияФайловСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация файлов сервер</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

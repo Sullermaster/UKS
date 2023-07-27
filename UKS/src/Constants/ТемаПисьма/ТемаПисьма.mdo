@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce6fa488-e3d7-4ed4-94b7-0cccb62eecd0">
+  <producedTypes>
+    <managerType typeId="cfba711e-99d9-488e-9d07-31b2189015a8" valueTypeId="065c1283-0b8b-4c54-b7fa-8eb7fb54a452"/>
+    <valueManagerType typeId="92e35823-3f4c-41c1-ae46-2ebf51a564d6" valueTypeId="33e67c2b-944a-4344-9017-ce0a5b2e7d22"/>
+    <valueKeyType typeId="fb4b8963-5a0d-4fdd-bfc2-7f6db54637d5" valueTypeId="efe18eab-bfa1-4f51-aa5f-75c362365b44"/>
+  </producedTypes>
+  <name>ТемаПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тема письма</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

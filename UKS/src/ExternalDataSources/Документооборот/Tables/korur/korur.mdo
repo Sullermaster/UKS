@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74da70ab-35aa-4cfe-b50e-c5891c987ea0">
+  <producedTypes>
+    <refType typeId="94f9ecde-8a45-4168-a6e5-141e1738184a" valueTypeId="c684ec46-f3bf-4044-9e7c-9e23c1012c03"/>
+    <listType typeId="271cb6f7-0c75-4133-a392-96cc98e6a3da" valueTypeId="45ccdb92-e7ff-436a-87cf-f1447e9c9684"/>
+    <objectType typeId="1e11f92e-72f1-418d-907f-143eb5b513a3" valueTypeId="76a53c3d-680f-43d6-8192-83b67e8f3dc3"/>
+    <managerType typeId="8126be2e-2c43-4630-9f86-464cc7c40563" valueTypeId="215cfccc-f0a9-49ba-8515-ed00a7780a77"/>
+    <recordManagerType typeId="3ff62d04-ed1a-4545-8f94-3de58f69d007" valueTypeId="7026dcf4-710a-46f3-81db-221d4834f63f"/>
+    <recordSetType typeId="739f2143-2165-4718-ac49-b4ea3f30c861" valueTypeId="8e013ae7-ed90-457f-954f-8bbb4bd72a23"/>
+    <recordType typeId="8758d765-1814-4dcf-a645-3b4440e15b7e" valueTypeId="72b41350-aa75-4b8d-8516-f9e3da1672ee"/>
+    <recordKeyType typeId="a3a288e9-e969-4dfc-b2c6-19b8ea9898d5" valueTypeId="9bcd43d1-da89-4903-ba66-b36af6bee3aa"/>
+  </producedTypes>
+  <name>korur</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>korur</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.korur.Field.ku_num</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.korur.Field.ku_num</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="5ec3de0c-ae0f-464f-9040-c462070cf529">
+    <name>ku_num</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ku_num</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="fd386c7a-bc05-4109-854b-0f22c5f92ce1">
+    <name>ku_knum</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ku_knum</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ebbacc86-60dc-455a-b67d-3650bbde1705">
+    <name>ku_name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_name</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8f832a84-2fcb-4a2c-b260-f781185f4532">
+    <name>ku_raion</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_raion</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="88802e49-f614-456d-b4f3-f77ac3c367dc">
+    <name>ku_po</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ku_po</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="cda67291-1447-495a-bfe9-cdf310981d2a">
+    <name>ku_city</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_city</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="083f5fb0-32c9-4f54-ab03-f820e0d321d3">
+    <name>ku_adres</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_adres</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="41f449d0-0aee-4928-9dff-0722d7dfd670">
+    <name>ku_mail</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_mail</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="418aa280-2975-4798-90cd-c81169432fec">
+    <name>ku_trab</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_trab</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="337ccf8b-8ba3-47a2-9e51-16427e3b8588">
+    <name>ku_fakc</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_fakc</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="20b29ac3-b329-4177-a1d6-043fd7c5ad3a">
+    <name>ku_rufio</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_rufio</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="6e5a897e-fcc5-4e23-8400-e79803ca3343">
+    <name>ku_tsot</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>ku_tsot</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="f1a60d7b-4d93-432e-a65a-a30630107d63">
+    <name>ku_lock</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ku_lock</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

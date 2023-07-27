@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb42d018-2896-4462-8dae-f46dd001de53">
+  <producedTypes>
+    <selectionType typeId="8d535abc-01de-4595-a763-6592f4e924d7" valueTypeId="7054d22a-1bb2-4742-8eef-1adad40d314b"/>
+    <listType typeId="c5bf055e-b794-4958-88ae-302ca2827121" valueTypeId="48472d80-c0d5-4945-b989-0ca6f6ed2661"/>
+    <managerType typeId="aa49cd6f-1e46-4be1-8829-25aef9844e18" valueTypeId="4da5f3b8-75ec-4a70-83a7-b3500a6f589a"/>
+    <recordSetType typeId="7b93f280-c8fa-4da6-b6b2-470b439b3069" valueTypeId="31be6ab8-38b3-48a5-90cf-25644d8bb14b"/>
+    <recordKeyType typeId="03a908c4-828f-4e5c-b065-33ef205e957e" valueTypeId="2d32077d-20ef-4713-a098-7a3786dc86cd"/>
+    <recordType typeId="4299c233-53dd-4906-82d5-ff9c866b3ff0" valueTypeId="85a152ec-dc44-4e49-8d0c-5c8245737263"/>
+    <recordManagerType typeId="6de0a98f-98e1-445f-bd4e-d0c2b94854f0" valueTypeId="255f3724-b9aa-4794-acb4-1fd3ddfe9606"/>
+  </producedTypes>
+  <name>РегистрВыполненыхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр выполненых работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="46b88041-701c-4a8e-825e-3b80d25fefb6">
+    <name>ДатаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b54d99a-4db6-4105-9c12-3722a332263f">
+    <name>ОписаниеРешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание решения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b19438ae-7240-4276-a797-ecb35366a770">
+    <name>ДатаПринятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата принятия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c28b8632-8dda-4377-a832-2a6882add269">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <comment>Количество отработанных часов</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ef5584ce-5b5a-46e3-815d-0082a44cca3d">
+    <name>КоличествоМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество минут</value>
+    </synonym>
+    <comment>Количество отработанных минут</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:StringValue">
+      <value>60</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a542d98c-0182-419c-af20-d4d533a178b4">
+    <name>ВыполнившийСотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнивший сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

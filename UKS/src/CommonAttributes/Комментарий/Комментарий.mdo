@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fe032ec-7585-4305-a899-9bfd3506b365">
+  <name>Комментарий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарий</value>
+  </synonym>
+  <comment>Комментарий</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:StringValue">
+    <value></value>
+  </fillValue>
+  <content>
+    <metadata>Document.ЗаявкаНаРемонт</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ЗаказЗаявкаРаспечатка</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Контрагенты</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8463d42e-7057-4662-9081-f3fe7fa8d2f6">
+  <producedTypes>
+    <objectType typeId="dd171709-a94f-4fbd-b883-2038dba42278" valueTypeId="5b36b1b5-5efe-451f-94bf-47187f9d39df"/>
+    <managerType typeId="3c2a5a98-e1ad-4288-a9c7-3a00c26f20c5" valueTypeId="b1931276-1838-45f6-93a3-0058de02d0a1"/>
+  </producedTypes>
+  <name>ОтпечатаныеСтраниицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпечатаные страниицы</value>
+  </synonym>
+  <comment>Отпечатаные страницы</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтпечатаныеСтраниицы.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтпечатаныеСтраниицы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="0243bcdc-f796-4c15-81aa-b145bea396b2">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0f45f1e4-0d52-4ea0-8453-1d90e7c8f68e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

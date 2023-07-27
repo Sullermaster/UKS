@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2ca92b8-a669-40c1-bdc2-1b0d2dc98fa0">
+  <producedTypes>
+    <objectType typeId="4ed5c93b-461a-4687-9a7d-60cc9716a311" valueTypeId="86de65e6-f796-4aa8-a3c4-35ada7bdbadf"/>
+    <managerType typeId="476e1b17-0440-4d28-8cc5-6cc72b4ad5c5" valueTypeId="76a7f48e-b98f-4e96-8b17-dedd07a421df"/>
+  </producedTypes>
+  <name>ФактическиОтработаноеВремя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фактически отработаное время</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ФактическиОтработаноеВремя.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="8fa1b0be-f4d0-4171-adf9-e1a1944e781b">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19139811-ec04-42be-af9c-f679fccf5633">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="91a35e64-1f6b-4b98-823c-f9b63c3bae22">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b02a8172-d26c-4f1f-9571-d71202ecff78">
+    <name>СписокРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список работ</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

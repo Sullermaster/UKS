@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcde40cf-c0a8-4a8f-816e-c555c88a5b6d">
+  <producedTypes>
+    <objectType typeId="a25aab2f-1a8a-46fb-b420-3ab7e404ba70" valueTypeId="abd7bc62-0e0c-4ded-868d-21882e0d8612"/>
+    <refType typeId="4d9c6010-8675-46d2-b81e-8be1bcb70be0" valueTypeId="aff8f547-3d03-4fbb-8cd2-0e800bd085bb"/>
+    <selectionType typeId="ddc1081d-57c4-4ab3-9b45-3acd76999d70" valueTypeId="ceb8cf8c-a094-482f-a1bc-d95165049af7"/>
+    <listType typeId="5cd89fc2-e8ee-4685-a7d6-2b5e71a55108" valueTypeId="74efbc8c-fe5c-48da-af4d-10a04e899169"/>
+    <managerType typeId="c1183266-6173-4737-8ef3-bec4c0668476" valueTypeId="aae88ae9-62f5-49c6-a5c8-7fb4efe57093"/>
+  </producedTypes>
+  <name>ВидыОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обслуживания</value>
+  </synonym>
+  <comment>Виды обслуживания</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОбслуживания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыОбслуживания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид обслуживания</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Вид обслуживания</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды обслуживания</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды обслуживания</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8800ace0-d3d7-4d5e-83d3-37671773a4c4">
+      <name>Изъятие</name>
+      <description>Изъятие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="c054bbce-a5dd-4f8d-bde0-b23f46ee9153">
+      <name>Модернизация</name>
+      <description>Модернизация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="f9dccc44-8246-4586-84ed-9e2ab76022c6">
+      <name>Ремонт</name>
+      <description>Ремонт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7689ab50-cfdf-416f-9a5a-4cd13e4c6471">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment>Описание</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

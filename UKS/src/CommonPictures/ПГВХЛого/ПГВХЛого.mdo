@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a3840ec-668e-4a21-b981-f0763a177cbe">
+  <name>ПГВХЛого</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПГВХ Лого</value>
+  </synonym>
+</mdclass:CommonPicture>

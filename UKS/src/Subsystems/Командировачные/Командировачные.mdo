@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbb4eba8-0ccc-4625-811a-37c4dc0d4103">
+  <name>Командировачные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Командировачные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Командировка</picture>
+  </picture>
+  <content>Document.КомандировочноеУдостоверение</content>
+  <content>Document.ПриказКомандировки</content>
+  <content>InformationRegister.СуточнаяВыплатаВодителю</content>
+</mdclass:Subsystem>

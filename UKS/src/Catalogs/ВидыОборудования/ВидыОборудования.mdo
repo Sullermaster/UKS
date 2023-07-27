@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faa83e07-c9cd-440e-bd57-970e169319c6">
+  <producedTypes>
+    <objectType typeId="8584617c-4e70-4a4d-85f5-977df69f54a4" valueTypeId="bb04aaf5-9fb0-4a2a-80d2-9c5a6b330702"/>
+    <refType typeId="39921621-b1e2-4026-9270-aa82ddddc710" valueTypeId="1a2a847d-a68c-42c3-bef9-5a0b77f0d19f"/>
+    <selectionType typeId="46c28274-3d82-4318-b1b4-7f8c41df5f43" valueTypeId="1a245342-05e8-4d53-9f41-f8e706fa7f9e"/>
+    <listType typeId="b04c6498-414f-4b61-9a96-1183b29cba17" valueTypeId="6c87f7d1-2bb4-4d91-9476-7c93cc76832c"/>
+    <managerType typeId="65aea08f-baee-4302-927e-4f96796083fb" valueTypeId="3f845f25-a41c-4d46-acb4-5bd70afe15f2"/>
+  </producedTypes>
+  <name>ВидыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оборудования</value>
+  </synonym>
+  <comment>Виды оборудования</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыОборудования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Обарудование</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды оборудования</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды оборудования</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Виды оборудования</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

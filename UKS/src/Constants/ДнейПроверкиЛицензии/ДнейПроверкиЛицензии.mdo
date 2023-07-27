@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd43a2a6-a519-4eed-8820-25ace97d3d58">
+  <producedTypes>
+    <managerType typeId="67e59e04-513f-4f95-beb2-cba752309f14" valueTypeId="872737c5-33f7-41bf-a338-9080883074fe"/>
+    <valueManagerType typeId="cb837f52-f537-459e-8d0c-d8d9908867cb" valueTypeId="2ad15101-fb87-4ff2-ab7b-3b3e78bc206c"/>
+    <valueKeyType typeId="ac8ae46e-20cc-4fbf-8afc-66ed0a2adf35" valueTypeId="4a91cdbf-b1be-4ec2-9856-f47e1420fe40"/>
+  </producedTypes>
+  <name>ДнейПроверкиЛицензии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дней проверки лицензии</value>
+  </synonym>
+  <comment>Количество дней для проверки лицензий</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

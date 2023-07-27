@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7aea728-80a7-4639-b67e-619a9f1263a2">
+  <producedTypes>
+    <refType typeId="fd7fd3f8-55a0-433e-8a1e-fb30105c13ae" valueTypeId="34069720-ae4e-4590-a721-3c834a4a6926"/>
+    <listType typeId="202a6861-6792-4eb6-b6e7-2300298edf52" valueTypeId="e814c6de-7a4c-435b-8666-fe43414dc925"/>
+    <managerType typeId="e2910c0e-10ce-42e2-9ad0-5e5e92486221" valueTypeId="7978d323-28d1-429c-a15a-7828b58b20b2"/>
+  </producedTypes>
+  <name>ВидРабодДляПечатиПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид рабод для печати проектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f517ae3e-bf01-4c8b-baff-38c12c9c836e">
+    <name>Ксерокопирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ксерокопирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd0be276-6d24-4d0d-a6eb-81b15ba54446">
+    <name>СканированиеВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканирование в файл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f7f9def-479a-4668-a7d8-7eb63302e44c">
+    <name>ПечатьИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать из файла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c80b5bd-4659-4b4e-9699-45cab5a2581d">
+    <name>Фальцовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фальцовка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c8253f8-cb14-4110-bf69-e9a0ad169885">
+    <name>Переплет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переплет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

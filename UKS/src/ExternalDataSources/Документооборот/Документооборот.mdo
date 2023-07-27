@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a58f865-5cfa-4029-a71d-ed5e671ba806">
+  <producedTypes>
+    <managerType typeId="6783bc08-c866-4718-ac24-0d5b177fa924" valueTypeId="d370fce5-5522-49b7-9c49-c0de2cae4606"/>
+    <tablesManagerType typeId="0b9d11d4-f6a7-469d-acf1-5d02d8eb9253" valueTypeId="d5679bd5-0b88-4e64-bed5-1fcbaa53221d"/>
+    <cubesManagerType typeId="0b805802-0957-41f2-88fc-4af54052f78b" valueTypeId="0fb2b816-1a09-4c74-8815-928ba442fffa"/>
+  </producedTypes>
+  <name>Документооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документооборот</value>
+  </synonym>
+  <comment>Документооброт</comment>
+  <tables>ExternalDataSource.Документооборот.Table.delo</tables>
+  <tables>ExternalDataSource.Документооборот.Table.id</tables>
+  <tables>ExternalDataSource.Документооборот.Table.idfiles</tables>
+  <tables>ExternalDataSource.Документооборот.Table.idispuser</tables>
+  <tables>ExternalDataSource.Документооборот.Table.idlink</tables>
+  <tables>ExternalDataSource.Документооборот.Table.korfiz</tables>
+  <tables>ExternalDataSource.Документооборот.Table.korur</tables>
+  <tables>ExternalDataSource.Документооборот.Table.otdels</tables>
+  <tables>ExternalDataSource.Документооборот.Table.spospol</tables>
+  <tables>ExternalDataSource.Документооборот.Table.users</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vd</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vdfiles</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vdispuser</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vdlink</tables>
+  <tables>ExternalDataSource.Документооборот.Table.viddoc</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vnd</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vndfiles</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vndispuser</tables>
+  <tables>ExternalDataSource.Документооборот.Table.vndlink</tables>
+</mdclass:ExternalDataSource>

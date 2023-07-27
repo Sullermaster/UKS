@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9c658cd-e738-4f2a-8b0d-e24628cee497">
+  <name>АктРемонтаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт ремонта оборудования</value>
+  </synonym>
+  <comment>Акт ремонта оборудования</comment>
+  <templateType>ActiveDocument</templateType>
+</mdclass:CommonTemplate>

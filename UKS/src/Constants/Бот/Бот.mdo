@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6943af14-c88d-4a13-91b5-98560ec15cc8">
+  <producedTypes>
+    <managerType typeId="1158fa9e-4777-4686-9c91-c4005c9bf3d3" valueTypeId="e79059db-ba10-4115-9ba0-5901ca953074"/>
+    <valueManagerType typeId="4726a6ad-30d2-449b-b666-e246a6949bd0" valueTypeId="a136922d-1e71-4b1d-8df9-2ed0f3147573"/>
+    <valueKeyType typeId="2210a281-4891-4884-aab7-6c930408cef6" valueTypeId="d2eb7282-bd6c-497d-8679-7c57023a3c72"/>
+  </producedTypes>
+  <name>Бот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бот</value>
+  </synonym>
+  <comment>Телеграм бот</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10580e00-d104-457f-abce-1d2e9acb8d0e">
+  <producedTypes>
+    <objectType typeId="e86af754-2f07-4158-a2a2-bdc537538541" valueTypeId="ee1094bf-df1b-4169-bb82-9f4be0d67634"/>
+    <managerType typeId="b9cfb2d8-3364-4b29-9bae-fedf93be5452" valueTypeId="cb4f5e97-fe79-444a-b333-2e369a3adc70"/>
+  </producedTypes>
+  <name>ОтчетПоСвободнымЯчейкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по свободным ячейкам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоСвободнымЯчейкам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="18bb5995-ee52-48f0-abe4-ec2133c67cfa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

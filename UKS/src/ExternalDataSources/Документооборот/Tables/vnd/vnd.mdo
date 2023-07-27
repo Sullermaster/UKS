@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf7bcb26-07b0-4eab-b43c-099f05497e26">
+  <producedTypes>
+    <refType typeId="2554eb9b-e72c-4cc6-ad9e-9f7a5b2d99f1" valueTypeId="74e086f7-4ef2-4a67-a821-b0ab34dd4fd5"/>
+    <listType typeId="a75e6a5f-e3da-4411-8d57-5f348b132939" valueTypeId="b1412310-793b-4592-8d0a-8ef37a87f96e"/>
+    <objectType typeId="83b73517-81fb-405f-a1b6-87de92b5f30f" valueTypeId="5f1c9c3b-4faf-44a7-989d-b4f5caef0508"/>
+    <managerType typeId="0980d72e-ecfc-41b4-9e9b-4be1eff76d03" valueTypeId="792f9c89-c1c6-47c9-87e6-bded43410a48"/>
+    <recordManagerType typeId="ec0b163c-4936-4ecd-894d-3650273ce3bf" valueTypeId="02a5b666-8528-4a6a-8a9e-e3f35d102fd0"/>
+    <recordSetType typeId="8b02b8c1-dce5-4ab8-9210-8c222f872bb9" valueTypeId="16310d37-83c0-4399-b2fb-4804f5110a4a"/>
+    <recordType typeId="9f3edd3a-7e31-456d-9297-da3a9c3fd5c8" valueTypeId="04be9966-0ee1-4c38-9ce6-9ebd50f7b6e0"/>
+    <recordKeyType typeId="bac34aa7-ef9b-4b5b-8efd-e5310be209b9" valueTypeId="2312ff4e-09a1-40af-affb-b40ad4da2b1f"/>
+  </producedTypes>
+  <name>vnd</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>vnd</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.vnd.Field.vnd_numa</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.vnd.Field.vnd_numa</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="c46d8641-9abe-424a-8aa3-8fe2e1ad7af5">
+    <name>vnd_numa</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_numa</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c12ec738-ed93-47e6-b6d5-4c553056166c">
+    <name>vnd_edit</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>vnd_edit</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8df26b69-bea1-4bb8-8a69-33899fbd3583">
+    <name>vnd_edit_fio</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_edit_fio</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="613aed55-d38a-49cf-b95b-0e2f6feaa596">
+    <name>vnd_key</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_key</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="dade6765-bf4f-4924-8d44-c7dbd5734180">
+    <name>vnd_nums</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_nums</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="4e21f7c8-5765-4050-b8c0-0832b5761462">
+    <name>vnd_delo</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_delo</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="a816fe80-3677-416e-87d5-b92ecc827358">
+    <name>vnd_vid</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_vid</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c5cb5e84-0d0e-4bbf-b96c-4fb2e9d152a5">
+    <name>vnd_dreg</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>vnd_dreg</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="836badfc-d44f-4b72-b6fb-c853f95c96f4">
+    <name>vnd_yar</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_yar</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="255c4af6-863f-4d4a-80b2-89ea3b02dbea">
+    <name>vnd_list</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_list</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c9316a2d-5d61-44d1-9b20-2709ccc4a7db">
+    <name>vnd_soder</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_soder</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="79328a7c-aeea-4a35-b771-f12ec93426b8">
+    <name>vnd_users</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_users</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="5472bae3-3e2c-4a68-8649-adfcc4266049">
+    <name>vnd_kontroler</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_kontroler</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="63e41ba0-78ea-4ecf-a69e-14512813665e">
+    <name>vnd_rez</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_rez</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="daa940e8-5a0e-4d69-8861-7858c2742fdd">
+    <name>vnd_srok</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>vnd_srok</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="f59eef54-7054-4aea-b52c-9aa013812044">
+    <name>vnd_prod</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_prod</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="171ea4c2-deeb-46fb-9d43-c8a537c15c4b">
+    <name>vnd_prod_srok</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>vnd_prod_srok</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="0acf36b4-68dd-4300-a499-7dda8cbb2fb5">
+    <name>vnd_kontr</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_kontr</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="d094122b-8e19-4231-af15-a5c4adbdac71">
+    <name>vnd_kuser</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>vnd_kuser</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="2207d4e6-2f85-498b-9591-a45f4fe7331d">
+    <name>vnd_dkon</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>vnd_dkon</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="e2a86313-3070-4094-b909-02f77b2efd9a">
+    <name>vnd_del</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_del</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="117da4a1-4449-41b3-9438-440066c058f8">
+    <name>vnd_lock</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>'0'</value>
+    </fillValue>
+    <nameInDataSource>vnd_lock</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="3beab48a-f41d-4dda-87cc-aba768d5b013">
+    <name>vnd_status</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>vnd_status</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

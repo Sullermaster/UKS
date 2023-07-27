@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f615797-7006-4c36-b4bc-d99556821be6">
+  <producedTypes>
+    <refType typeId="9ff4f1ce-e205-4896-b348-e7cb9ad9cc73" valueTypeId="4be75f5a-607a-4410-86b3-df697182dd6d"/>
+    <listType typeId="c1bacf0b-9f6d-4377-8b73-38e427984717" valueTypeId="d38204e1-d9de-4301-9d93-6e1bd31606d9"/>
+    <objectType typeId="02759c71-5946-4230-a60a-fadfbfa6b752" valueTypeId="7980c5b9-de40-400c-8bda-9e382093b715"/>
+    <managerType typeId="50111c17-f4cd-4dde-9b98-4ef677ab13bb" valueTypeId="aa80367d-a5c9-4dac-8d62-12ab87fefb93"/>
+    <recordManagerType typeId="94748741-944c-42f6-8bff-dfc09b1afe0f" valueTypeId="5219efc9-3673-4871-8624-cfb29d9e6548"/>
+    <recordSetType typeId="179ee0c1-b820-490a-85f6-f11abb78f796" valueTypeId="81b8cd25-5bb2-487d-b5d8-b855cc944b93"/>
+    <recordType typeId="849960de-b845-4f01-adc1-5169eecd2e5c" valueTypeId="09bd1b74-ae0f-464e-b444-52bd3cdb6963"/>
+    <recordKeyType typeId="31f564fc-e88b-46f4-ac61-1691732dc883" valueTypeId="36a328cc-7793-42e9-9e38-1d84b03eb99d"/>
+  </producedTypes>
+  <name>spospol</name>
+  <parentDataSource>ExternalDataSource.Документооборот</parentDataSource>
+  <nameInDataSource>spospol</nameInDataSource>
+  <keyFields>ExternalDataSource.Документооборот.Table.spospol.Field.sp_numa</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Документооборот.Table.spospol.Field.sp_numa</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="3b0cd985-6b42-42f1-b113-fac9ce358e74">
+    <name>sp_numa</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>sp_numa</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8fe3ca19-730a-4ff3-b2d0-3062305901f2">
+    <name>sp_sppol</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>''</value>
+    </fillValue>
+    <nameInDataSource>sp_sppol</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7544e8ad-b900-493e-9e4a-ab4d268b8166">
+    <name>sp_lock</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>sp_lock</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

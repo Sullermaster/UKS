@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f05649dd-c44f-4efc-b621-aa732c2d3d3f">
+  <producedTypes>
+    <selectionType typeId="795cab73-5113-42ec-b165-5ee6aa9b44d3" valueTypeId="01eaa8f9-db25-4636-b45d-7855d9fee92c"/>
+    <listType typeId="33333234-ab00-4a4d-aac2-485920539fb1" valueTypeId="043edecf-005f-4b03-9bf8-d07bcbe41a64"/>
+    <managerType typeId="95d27763-7cb7-4244-8ec9-46288979aa97" valueTypeId="a9b57aeb-18a0-4007-a9bb-991ff80c689d"/>
+    <recordSetType typeId="287eee5f-a843-4f20-a5b9-aead1b9f5be4" valueTypeId="353a8c4c-261b-4564-9286-8bee7db0f1eb"/>
+    <recordKeyType typeId="5c8b22e3-3fd4-4e2b-b96b-58f7122f7713" valueTypeId="a8339f5d-8fc3-4d06-b671-4660b700653c"/>
+    <recordType typeId="4be6fe66-fb4d-4fd7-8675-accae540387b" valueTypeId="024a97d6-93d1-4220-901e-9f4919036696"/>
+    <recordManagerType typeId="460bc518-1b5e-4cbb-ad98-76e3f9a9fb7d" valueTypeId="8549c4f1-3736-4b6a-aa7d-f782f56cce4f"/>
+  </producedTypes>
+  <name>ЖурналОтпечатаныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал отпечатаных листов</value>
+  </synonym>
+  <comment>Журнал отпечатаных листов</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЖурналОтпечатаныхЛистов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЖурналОтпечатаныхЛистов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="b7505ada-934f-45a4-90db-2e5cb1c8518b">
+    <name>КоличествоОтпечатанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество отпечатанных</value>
+    </synonym>
+    <comment>Количество</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="948bb73b-088a-4fd0-8cc4-6dc7a7b75a32">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0a34b491-c781-457d-9526-f2142dd70a77">
+    <name>РазмерЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер листа</value>
+    </synonym>
+    <comment>Размер листа</comment>
+    <type>
+      <types>EnumRef.РазмерыЛиста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47a1b8eb-55c8-494b-9d12-117e1a8a643f">
+    <name>ЦветПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет печати</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦветПечати</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="904023f2-6739-4ec4-828b-afab1e508bc0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35c2d229-01df-4f03-adf2-dd6bfdda7885">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

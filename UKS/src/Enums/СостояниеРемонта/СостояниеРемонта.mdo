@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a82ab80a-a730-48fb-a13c-a4fc3058f8c2">
+  <producedTypes>
+    <refType typeId="29a253bd-8863-47c1-bcda-04d4f21a3bd1" valueTypeId="6411d88c-bff0-40c4-b45a-86aaba9700f7"/>
+    <listType typeId="032b72fc-0555-41ac-9dbe-b838e82cef81" valueTypeId="3d433e22-e121-40e4-95fa-8b80aab4fa1b"/>
+    <managerType typeId="ed19e9d0-eb64-4648-9d81-ce85bda8211e" valueTypeId="f7157f73-c6e0-449b-8cb3-e41ef4e655cb"/>
+  </producedTypes>
+  <name>СостояниеРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние ремонта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="527338fb-fa1e-41ed-83fa-ba2e8f1e337d">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bde734b0-8f41-41fb-91c3-956a8feb23e7">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="341d464f-a4a6-4d75-8c7f-09d62daa66fe">
+    <name>Готов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="85c2d5e9-eac9-4986-bcb2-0f70699f4be1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

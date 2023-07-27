@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea0bd7b6-d1e7-416d-8a60-bd98f9980f0e">
+  <producedTypes>
+    <managerType typeId="3b188aef-aaf3-4ebf-8ecd-7577ba510ff5" valueTypeId="32c83bc0-f393-42e9-925c-cda36c40b4cd"/>
+    <valueManagerType typeId="4c0382c0-683a-40f8-a2f3-0d6663be3348" valueTypeId="3bfa36f5-9820-4357-b81b-89c084d0c0de"/>
+    <valueKeyType typeId="dbddfe2a-fdaa-4d9a-9b56-80e43c317a5b" valueTypeId="0a66867d-0670-4fa5-89ca-d8471d034922"/>
+  </producedTypes>
+  <name>ИспользоватьSSLSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать SSLSMTP</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

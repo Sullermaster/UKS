@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6a40c7d-fba7-4a66-987a-30f03b8ca673">
+  <producedTypes>
+    <managerType typeId="0ad0d3bc-9dc3-4a94-90c5-4059025c879b" valueTypeId="7d4403e8-782a-40fb-9cf6-400771f54d09"/>
+    <valueManagerType typeId="643b98f1-fa19-4639-bd1b-bf16c0f80fb3" valueTypeId="29226212-7da2-4104-a333-7e07a038ac8a"/>
+    <valueKeyType typeId="d33cb2a6-c9de-47c0-b28d-5ec5bbe5e638" valueTypeId="352d1ba5-8368-4888-b9cd-029f6e27ffa8"/>
+  </producedTypes>
+  <name>ПутьЛогФайлаБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь лог файла бота</value>
+  </synonym>
+  <comment>Путь к лог файлу бота</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>254</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
